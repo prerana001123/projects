@@ -1,0 +1,6 @@
+print("Welcome to band name generator.")
+name = input("What is your favorite food?\n")
+# print(name)
+surname = input("Where do you belong? \n")
+# print(surname)
+print("Your band name should be " + name + " " + surname + ".")

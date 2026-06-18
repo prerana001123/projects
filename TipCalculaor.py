@@ -1,0 +1,6 @@
+print("Welcome to the tip calculator!")
+total_bill = int(input("What was the total bill?\n"))
+tip = int(input("How much percentage of bill do you want to tip? 10, 12 or 15\n"))
+# payable_amount = str(((total_bill + (total_bill * (tip/100)))/5))
+payable_amount = str(round(((total_bill + (total_bill * (tip/100)))/5), 2))
+print("Each person should pay Rs " + payable_amount)
